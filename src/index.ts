@@ -1,18 +1,4 @@
-# canvas-barrage
-canvas 实现的弹幕功能 demo
 
-- canvas + webSocket + redis
-
------
-
-1. 构建环境
-2. 创建弹幕，创建弹幕基本数据
-3. 创建每条弹幕数据
-4. 显示数据
-5. 添加事件
-6. 交互redis
-
-```typescript
 let data: Array<IData> = [
   // value 值, time出现的时间, speed速度
   {value: 'zf', time: 0, speed: 2, color: 'red', fontSize: 20 },
@@ -227,5 +213,5 @@ add.addEventListener('click', () => {
     color: _color
   }
   socket.send(JSON.stringify(obj))
+  // canvasGabbage.add(obj)
 })
-```

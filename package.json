@@ -1,0 +1,15 @@
+{
+  "name": "canvas-barrage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/redis": "^2.8.10",
+    "@types/ws": "^6.0.1",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "redis": "^2.8.0",
+    "ws": "^6.2.0"
+  }
+}
